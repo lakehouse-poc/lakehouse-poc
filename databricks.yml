@@ -12,6 +12,22 @@ targets:
     workspace:
       host: https://dbc-9db74b75-4a07.cloud.databricks.com
 
+    sync:
+      include:
+        - notebooks/**
+        - src/**
+        - tests/**
+        - requirements.txt
+        - databricks.yml
+
+      exclude:
+        - .venv/**
+        - .git/**
+        - .gitignore
+        - .vscode/**
+        - __pycache__/**
+        - .databricks/**
+
   ## Optionally, there could be 'staging' or 'prod' targets here.
   #
   # prod:
