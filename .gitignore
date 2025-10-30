@@ -21,6 +21,5 @@ workspace/
 # Jupyter
 .ipynb_checkpoints/
 
-.databricks
+.databricks.env
 
-.databricks

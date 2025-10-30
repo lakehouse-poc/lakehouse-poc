@@ -10,26 +10,10 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://dbc-9db74b75-4a07.cloud.databricks.com
-
-    sync:
-      include:
-        - notebooks/**
-        - src/**
-        - tests/**
-        - requirements.txt
-        - databricks.yml
-
-      exclude:
-        - .venv/**
-        - .git/**
-        - .gitignore
-        - .vscode/**
-        - __pycache__/**
-        - .databricks/**
+      host: https://dbc-75247e6a-f18a.cloud.databricks.com
 
   ## Optionally, there could be 'staging' or 'prod' targets here.
   #
   # prod:
   #   workspace:
-  #     host: https://dbc-9db74b75-4a07.cloud.databricks.com
+  #     host: https://dbc-75247e6a-f18a.cloud.databricks.com
